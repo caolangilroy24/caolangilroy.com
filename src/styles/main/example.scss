@@ -1,0 +1,14 @@
+@import 'variables';
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $dark-color;
+  }
+  
+  .button {
+    background-color: $primary-color;
+    color: $light-color;
+    padding: $spacing-unit;
+    border-radius: $border-radius;
+  }

@@ -1,0 +1,32 @@
+// variables.scss
+
+// Colors
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+
+// Typography
+$font-family-base: Arial, sans-serif;
+$font-size-base: 16px;
+
+// Spacing
+$spacing-unit: 1rem;
+
+// Border radius
+$border-radius: 0.25rem;
+
+// Z-index
+$z-index-modal: 1000;
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-backdrop: 1040;
+$z-index-toast: 1050;
+$z-index-navbar: 1060;
+
+// You can add more variables and SCSS code as needed.
