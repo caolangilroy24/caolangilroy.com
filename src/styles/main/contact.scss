@@ -32,36 +32,16 @@
     display: flex;
     flex-direction: column;
     // background-color: blue;
-    max-width: 80%;
+    max-width: 100%;
     min-width: 80%;
     min-height: 80%;
   }
-  /* Berlin */
 
-// position: absolute;
-// width: 75px;
-// height: 24px;
-// left: 107px;
-// top: 217px;
-
-// font-family: 'Inria Sans';
-// font-style: normal;
-// font-weight: 700;
-// font-size: 20.1361px;
-// line-height: 113%;
-// /* or 23px */
-// text-align: center;
-// letter-spacing: 0.1em;
-
-// color: #FBEBDF;
-
-
-
-  .location-linkedin-bar {
+  .github-linkedin-bar {
     display: flex;
     flex-direction: row;
-    min-height: 5vh;
-    font-size: 20px;
+    min-height: 12vh;
+    // font-size: 20px;
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 700;
@@ -73,7 +53,6 @@
     text-align: center;
     letter-spacing: 0.1em;
 
-    // max-height: 20vh;
   }
 
   .location-text {
@@ -95,28 +74,9 @@
     transition: 0.2s;
     filter: drop-shadow(0px 8px 15px rgba(206, 206, 206, 0.25));
   }
+
   .location-icon {
     margin-right: 10px;
     min-height: 110%;
-    // min-width: none;
-    // min-height: 20
-    // 0%;
   }
-  /* Hi, I'm Caolan Gilroy, a software developer based in Berlin. Passionate about web development, I specialize in MEAN and MERN stack technologies and thrive on delivering innovative solutions. Let's create something amazing together! */
-
-// position: absolute;
-// width: 614px;
-// height: 202px;
-// left: 84px;
-// top: 263px;
-
-// font-family: 'Inria Sans';
-// font-style: normal;
-// font-weight: 400;
-// font-size: 24px;
-// line-height: 113%;
-// /* or 27px */
-// letter-spacing: 0.01em;
-
-// color: rgba(255, 147, 48, 0.95);
-
+ 

@@ -1,13 +1,16 @@
 import React from 'react'
 import '../styles/main/contact.scss'
+import location from '../assets/location.svg'
+import github from '../assets/icons/github-primary.svg'
+import linkedin from '../assets/icons/linkedin-primary.svg'
 
 export default function Contact() {
   return (
-    <div className='home-content'>
-          <div className='home-content-container'>
-            <h1>Full Stack Software Engineeeeeeer</h1>
-            <div className='location-linkedin-bar'><div className='location-text'>Berlin</div></div>
-            <h3>Hi, I'm <span className='highlight-text'>Caolan Gilroy</span>, a software developer based in Berlin. Passionate about web development, I specialize in MEAN and MERN stack technologies and thrive on delivering innovative solutions. Let's create something amazing together!</h3>
+    <div className='content-content'>
+          <div className='contact-content-container'>
+            <h1>Lets Work Together</h1>
+            <h3>caolangilroy@gmail.com</h3>
+            <div className='github-linkedin-bar'>< img src={github} className="small-icon" alt="github-small" />< img src={linkedin} className="small-icon" alt="linkedin-small" /></div>   
           </div>
     </div>
   )

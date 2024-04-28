@@ -10,6 +10,7 @@ import './styles/main/contentContainer.scss'
 import TechStack from './components/TechStack'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Banner from './components/Banner'
 
 
 function App() {
@@ -21,29 +22,8 @@ function App() {
         
         <Home/>
         <Contact/>
-        {/* <div className='contact-content'>
+        <Banner/>
 
-          <div className='contact-content-container'>
-            <h1>Full Stack Software </h1>
-            <div className='location-linkedin-bar'>< img src={location} className="small-icon" alt="location" /><div className='location-text'>Berlin</div>< img src={githubSmall} className="small-icon" alt="github-small" />< img src={linkedinSmall} className="small-icon" alt="linkedin-small" /></div>
-            <h3>Hi, I'm <span className='highlight-text'>Caolan Gilroy</span>, a software developer based in Berlin. Passionate about web development, I specialize in MEAN and MERN stack technologies and thrive on delivering innovative solutions. Let's create something amazing together!</h3>
-            <TechStack/>
-          </div>
-        </div> */}
-
-        <div className='banner'>
-          <div className='banner-container'>
-
-            <div className='test-grid' >
-
-            </div>
-            <button className='contact-button'>
-              Contact Me
-            </button>
-
-          </div>
-          
-        </div>
       </div>
     </>
   )
