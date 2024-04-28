@@ -1,33 +1,50 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import logo from './assets/logo.svg'
+import location from './assets/location.svg'
+import githubSmall from './assets/github-small.svg'
+import linkedinSmall from './assets/linkedin-small.svg'
+import './styles/main/example.scss'
+import './styles/main/homeBanner.scss'
+import './styles/main/contentContainer.scss'
+import TechStack from './components/TechStack'
+import Home from './components/Home'
+import Contact from './components/Contact'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='body-container'>
+        < img src={logo} className="logo" alt="logo" />
+        
+        <Home/>
+        <Contact/>
+        {/* <div className='contact-content'>
+
+          <div className='contact-content-container'>
+            <h1>Full Stack Software </h1>
+            <div className='location-linkedin-bar'>< img src={location} className="small-icon" alt="location" /><div className='location-text'>Berlin</div>< img src={githubSmall} className="small-icon" alt="github-small" />< img src={linkedinSmall} className="small-icon" alt="linkedin-small" /></div>
+            <h3>Hi, I'm <span className='highlight-text'>Caolan Gilroy</span>, a software developer based in Berlin. Passionate about web development, I specialize in MEAN and MERN stack technologies and thrive on delivering innovative solutions. Let's create something amazing together!</h3>
+            <TechStack/>
+          </div>
+        </div> */}
+
+        <div className='banner'>
+          <div className='banner-container'>
+
+            <div className='test-grid' >
+
+            </div>
+            <button className='contact-button'>
+              Contact Me
+            </button>
+
+          </div>
+          
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
