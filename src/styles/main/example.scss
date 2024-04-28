@@ -1,0 +1,33 @@
+@import '../variables';
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $light-color;
+    background-color: $dark-color;
+    display: flex;
+    height: 200vh;
+  }
+
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .button {
+    background-color: $primary-color;
+    color: $light-color;
+    padding: $spacing-unit;
+    border-radius: $border-radius;
+  }
+
+    .logo {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+    }

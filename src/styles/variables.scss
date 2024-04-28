@@ -1,0 +1,38 @@
+// variables.scss
+
+// Colors
+$primary-color: #FF9330;
+$secondary-color: #FF9330;
+$success-color: #FBEBDF;
+$danger-color: #dc3545;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+$light-color: #FBEBDF;
+$dark-color: #131A2B;
+
+// Typography
+$font-family-base: 'Inria Sans';
+$font-style: normal;
+$font-size-base: 16px;
+
+// Spacing
+$spacing-unit: 1rem;
+
+// Border radius
+$border-radius: 0.25rem;
+
+// Z-index
+$z-index-modal: 1000;
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-backdrop: 1040;
+$z-index-toast: 1050;
+$z-index-navbar: 1060;
+
+// Content:banner ratio;
+
+$banner-ratio: 30%;
+$content-ratio: 70%;
+
+// You can add more variables and SCSS code as needed.
