@@ -16,16 +16,14 @@
     font-size: 24px;
     color: #FBEBDF
   }
+  .home-content h1 {
+    font-size: 70px;
+    // color: $primary-color;
+  }
   .highlight-text {
     font-size: 35px;
     color: $primary-color;
   }
-
-  .h1 {
-    font-size: 35px;
-    color: $primary-color;
-  }
-
 
   .home-content-container {
     margin-top: 12.5%;
@@ -36,31 +34,11 @@
     min-width: 80%;
     min-height: 80%;
   }
-  /* Berlin */
-
-// position: absolute;
-// width: 75px;
-// height: 24px;
-// left: 107px;
-// top: 217px;
-
-// font-family: 'Inria Sans';
-// font-style: normal;
-// font-weight: 700;
-// font-size: 20.1361px;
-// line-height: 113%;
-// /* or 23px */
-// text-align: center;
-// letter-spacing: 0.1em;
-
-// color: #FBEBDF;
-
-
 
   .location-linkedin-bar {
     display: flex;
     flex-direction: row;
-    min-height: 5vh;
+    min-height: 10vh;
     font-size: 20px;
     font-family: 'Inria Sans';
     font-style: normal;
