@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/main/contact.scss'
-import location from '../assets/location.svg'
 import github from '../assets/icons/github-primary.svg'
 import linkedin from '../assets/icons/linkedin-primary.svg'
 
