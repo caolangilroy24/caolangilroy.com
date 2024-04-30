@@ -3,12 +3,13 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
   base: './',
-  // build: {
-  //   outDir: 'build',
-  //   base: '/caolangilroy.com/',
-  //   assetsDir: 'assets'
+  plugins: [react()],
+  build: {
+    outDir: 'build',
+    base: './',
+    assetsDir: 'assets'
+  },
   //   // rollupOptions: {
   //   //   output: {
   //   //     assetFileNames: 'assets/[name][extname]',
