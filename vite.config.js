@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'build',
-    base: './',
+    base: '/caolangilroy.com/',
+    assetsDir: 'assets'
     // rollupOptions: {
     //   output: {
     //     assetFileNames: 'assets/[name][extname]',
