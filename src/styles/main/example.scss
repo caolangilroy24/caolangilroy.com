@@ -6,6 +6,7 @@ body {
     color: $light-color;
     background-color: $dark-color;
     display: flex;
+    overflow: auto;
     height: 200vh;
   }
 
@@ -15,6 +16,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    @media (max-width: 768px) {
+      // right: auto;
+      flex-direction: column;
+    }
   }
   
   .button {
