@@ -14,10 +14,10 @@ function App() {
     <>
       <div className='body-container'>
         < img src={logo} className="logo" alt="logo" />
-        <Banner/>
+        
         <Home/>
         <Contact/>
-        {/* <Banner/> */}
+        <Banner/>
 
       </div>
     </>

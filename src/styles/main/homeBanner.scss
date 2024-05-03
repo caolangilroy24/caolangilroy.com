@@ -8,13 +8,6 @@
   right: 0vw;
   min-width: $banner-ratio;
   min-height: 100%;
-  @media (max-width: 768px) {
-    // right: auto;
-    top: 0;
-    min-width: 100%;
-    min-height: 30%;
-    max-height: 40%;
-  }
 }
 
 .banner-container{
@@ -24,13 +17,6 @@
     gap: 10vh;
     align-items: center;
     justify-content: center;
-    @media (max-width: 768px) {
-        // right: auto;
-        top: 0;
-        // min-width: 100%;
-        min-height: 20%;
-        // max-height: 40%;
-      }
 }
 
 
@@ -57,17 +43,6 @@
     border: 1px solid white;
     display: grid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    @media (max-width: 768px) {
-        margin-top: 5%;
-        // right: auto;
-        top: 0;
-        min-height: 30vh;
-        min-width: 60vw;
-        background-size: cover;
-        // min-width: 100%;
-        // min-height: 30%;
-        // max-height: 40%;
-      }
 
     // grid-template-columns: repeat(3, 1fr);
     // grid-template-rows: repeat(3, 10px);
