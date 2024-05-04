@@ -1,23 +1,195 @@
 @import '../variables';
 
 
+// .banner {
+//   background-color: $primary-color;
+//   position: fixed;
+//   flex: 0 0 30vw;
+//   top: 0;
+//   right: 0vw;
+//   min-width: $banner-ratio;
+//   min-height: 100%;
+//   @media (max-width: 768px) {
+//     // right: auto;
+//     top: 0;
+//     min-width: 100%;
+//     min-height: 30%;
+//     max-height: 40%;
+//   }
+// }
+
+// .banner-container{
+//     margin-top: 10%;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10vh;
+//     align-items: center;
+//     justify-content: center;
+//     @media (max-width: 768px) {
+//         // right: auto;
+//         top: 0;
+//         // min-width: 100%;
+//         min-height: 20%;
+//         // max-height: 40%;
+//       }
+// }
+
+
+
+// .test-grid {
+//     margin-top: 20%;
+//     background-image: url('../../assets/headshot.JPG');
+//     background-size: cover;
+//     background-color: $light-color;
+//     // border-color: $dark-color;
+//     border: 10px $dark-color;
+//     border-radius: 30%;
+//     // flex-direction: column;
+
+//     // margin-top: 12.5vh;
+//     margin-right: 10%;
+//     margin-left: 10%;
+//     // margin
+//     min-height: 40vh;
+//     // max-width: 50%;
+//     min-width: 70%;
+
+//     bottom: 12.5;
+//     border: 1px solid white;
+//     display: grid;
+//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+//     @media (max-width: 768px) {
+//         margin-top: 5%;
+//         // right: auto;
+//         top: 0;
+//         min-height: 30vh;
+//         min-width: 60vw;
+//         background-size: cover;
+//         // min-width: 100%;
+//         // min-height: 30%;
+//         // max-height: 40%;
+//       }
+
+//     // grid-template-columns: repeat(3, 1fr);
+//     // grid-template-rows: repeat(3, 10px);
+//     // gap: 10px;
+// }
+
+// // .contact-button {
+// //     background-color: $light-color;
+// //     // border-radius: 50%;
+// //     min-width: 20%;
+// //     max-height: 10vh;
+// //     position: relative;
+
+// //     border: 1px solid white;
+// // }
+
+// // .contact-button::before,
+// // .contact-button::after {
+// //     background-color: $light-color;
+// //     border-radius: 50%;
+// //     min-width: 20%;
+// //     // max-height: 10vh;
+// //     height: 100%;
+// //     position: absolute;
+// //     top:0;
+// //     width: 50px;
+// //     border: 1px solid white;
+// // }
+
+// // .contact-button::before {
+// //     left:-25px
+// // }
+
+// // .contact-button {
+// //     background-color: $light-color;
+// //     border-radius: 50%;
+// //     min-width: 20%;
+// //     max-height: 10vh;
+
+// //     border: 1px solid white;
+// // }
+
+// /* Group 1 */
+
+// .contact-button {
+
+//     min-width: 50%;
+//     // line-height: -20;
+//     // height: 6vh;
+//     min-height: 6vh;
+//     // left: 126px;
+//     // top: 551px;
+//     background: #FBEBDF;
+//     border-radius: 32px;
+//     font-family: 'Radio Canada';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 30px;
+//     line-height: 1%;
+//     // line-height: 35px;
+//     color: #0F172A;
+//     // vertical-align: middle;
+//     // text-align: center;
+
+
+    
+//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+// }
+
+// .contact-button:hover{
+//     min-height: 6.4vh;
+//     min-width: 63%;
+    
+//     // z-index: 1;
+//     transition: 0.2s;
+//     filter: drop-shadow(0px 8px 15px rgba(243, 243, 243, 0.25));
+// }
+
+/* Contact Me */
+
+// .text-holder{
+//     position: absolute;
+//     width: 161px;
+//     height: 35px;
+//     // left: 160.83px;
+//     // top: 567.5px;
+
+//     font-family: 'Radio Canada';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 29.3333px;
+//     line-height: 35px;
+
+//     color: #0F172A;
+// }
+
+// @import '../variables';x§
+
+
 .banner {
   background-color: $primary-color;
-  position: fixed;
+  position: absolute;
+  flex: 0 0 $banner-ratio;
+  min-width: $banner-ratio;
   top: 0;
   right: 0vw;
-  min-width: $banner-ratio;
+//   min-width: $banner-ratio;
   min-height: 100%;
   @media (max-width: 768px) {
+    position: static;
+    order: -1;
     // right: auto;
     top: 0;
     min-width: 100%;
-    min-height: 30%;
-    max-height: 40%;
+    min-height: 60%;
+    // max-height: 40%;
   }
 }
 
 .banner-container{
+
     margin-top: 10%;
     display: flex;
     flex-direction: column;
@@ -28,7 +200,7 @@
         // right: auto;
         top: 0;
         // min-width: 100%;
-        min-height: 20%;
+        // min-height: 20%;
         // max-height: 40%;
       }
 }
@@ -40,17 +212,12 @@
     background-image: url('../../assets/headshot.JPG');
     background-size: cover;
     background-color: $light-color;
-    // border-color: $dark-color;
     border: 10px $dark-color;
     border-radius: 30%;
-    // flex-direction: column;
 
-    // margin-top: 12.5vh;
     margin-right: 10%;
     margin-left: 10%;
-    // margin
     min-height: 40vh;
-    // max-width: 50%;
     min-width: 70%;
 
     bottom: 12.5;
@@ -58,59 +225,19 @@
     display: grid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media (max-width: 768px) {
+        width: 90%; // Reduce the width to 90% of the parent (banner)
+        height: auto; // Let the height adjust automatically
+        object-fit: contain; // Ensure the photo scales nicely
+        margin: 0 auto; 
         margin-top: 5%;
         // right: auto;
-        top: 0;
-        min-height: 30vh;
-        min-width: 60vw;
-        background-size: cover;
-        // min-width: 100%;
-        // min-height: 30%;
-        // max-height: 40%;
+        // top: 0;
+        // min-height: 30vh;
+        // min-width: 60vw;
+        // margin: 0 auto
+        // background-size: cover;
       }
-
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-template-rows: repeat(3, 10px);
-    // gap: 10px;
 }
-
-// .contact-button {
-//     background-color: $light-color;
-//     // border-radius: 50%;
-//     min-width: 20%;
-//     max-height: 10vh;
-//     position: relative;
-
-//     border: 1px solid white;
-// }
-
-// .contact-button::before,
-// .contact-button::after {
-//     background-color: $light-color;
-//     border-radius: 50%;
-//     min-width: 20%;
-//     // max-height: 10vh;
-//     height: 100%;
-//     position: absolute;
-//     top:0;
-//     width: 50px;
-//     border: 1px solid white;
-// }
-
-// .contact-button::before {
-//     left:-25px
-// }
-
-// .contact-button {
-//     background-color: $light-color;
-//     border-radius: 50%;
-//     min-width: 20%;
-//     max-height: 10vh;
-
-//     border: 1px solid white;
-// }
-
-/* Group 1 */
 
 .contact-button {
 
@@ -146,21 +273,4 @@
     filter: drop-shadow(0px 8px 15px rgba(243, 243, 243, 0.25));
 }
 
-/* Contact Me */
-
-// .text-holder{
-//     position: absolute;
-//     width: 161px;
-//     height: 35px;
-//     // left: 160.83px;
-//     // top: 567.5px;
-
-//     font-family: 'Radio Canada';
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 29.3333px;
-//     line-height: 35px;
-
-//     color: #0F172A;
-// }
 
