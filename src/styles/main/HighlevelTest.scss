@@ -1,0 +1,106 @@
+@import '../variables';
+
+:root {
+    --primary-box-color: #112055;
+    --primary-box-text: #fff;  
+    --secondary-box-color: #4f9d92;
+    --secondary-box-text: #000;
+  }
+  .box__wrapper {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    // top:0;
+    // gap: 5vh;
+    
+    // background-color: var(--primary-box-color);
+    // color: var(--primary-box-text);
+    min-width: 30vw;
+    min-height: 100vh;
+    @media (max-width: 768px) {
+      position: static;
+      order: -1;
+      top: 0;
+      min-width: 100%;
+      min-height: 40vh;
+    }
+  }
+  
+  .photo {
+    padding-top: 20%;
+    background-color: black;
+    border: 10px black;
+    border-radius: 30%;
+  
+    margin-right: 10%;
+    margin-left: 10%;
+    // margin-bottom: 10%;
+    height: 35vh;
+    min-width: 70%;
+  
+    border: 5px solid white;
+    @media (max-width: 768px) {
+      height: 30vh; 
+      margin: 0 auto; 
+      margin-top: 2vh;
+      min-width: 40%;
+      max-width: 40%;
+    }
+  }
+  
+  .content {
+    padding: var(--padding);
+    height: 100vh;
+    min-width: 70vw;
+    border-radius: var(--border-rad);
+    box-shadow: var(--shadow);
+    position: relative;
+    background-color: var(--primary-box-color);
+    color: var(--primary-box-text);
+    // @media (max-width: 768px) {
+    //     // height: 30vh; 
+    //     // margin: 0 auto; 
+    //     // margin-top: 5%;
+    //     min-width: 100vw;
+    //     // max-width: 40%;
+    //   }
+  }
+  
+  .banner {
+    display: flex;
+    flex: 0 0 30vw;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 15%;
+    min-width: 30vw;
+    right: 0vw;
+    
+    background-color: orange;
+    color: var(--secondary-text);
+    
+    @media (max-width: 768px) {
+      position: static;
+      
+      order: -1;
+      
+      top: 0;
+      min-width: 100%;
+      min-height: 40vh;
+    }
+  }
+  
+  
+  .button {
+    max-width: 70%;
+    margin-bottom: 5%;
+  }

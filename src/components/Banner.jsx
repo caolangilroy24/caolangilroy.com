@@ -10,9 +10,9 @@ export default function Banner() {
         });
     };
   return (
-    <div className='banner'>
-        <div className='banner-container'>
-            <div className='test-grid' >
+    <div className='banner-new-new'>
+        <div className='banner-container-new'>
+            <div className='photo-new' >
             </div>
             <button className='contact-button' onClick={scrollToBottom}>
               Contact Me
