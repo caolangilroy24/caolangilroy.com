@@ -18,62 +18,62 @@
   }
 }
 
-.banner-container{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    gap: 10vh;
-    align-items: center;
-    justify-content: center;
-    @media (max-width: 768px) {
-        // right: auto;
-        top: 0;
-        // min-width: 100%;
-        min-height: 20%;
-        // max-height: 40%;
-      }
-}
+// .banner-container{
+//     // margin-top: 10%;
+//     display: flex;
+//     flex-direction: column;
+//     // gap: 10vh;
+//     align-items: center;
+//     justify-content: center;
+//     @media (max-width: 768px) {
+//         // right: auto;
+//         top: 0;
+//         // min-width: 100%;
+//         min-height: 20%;
+//         // max-height: 40%;
+//       }
+// }
 
 
 
-.test-grid {
-    margin-top: 20%;
-    background-image: url('../../assets/headshot.JPG');
-    background-size: cover;
-    background-color: $light-color;
-    // border-color: $dark-color;
-    border: 10px $dark-color;
-    border-radius: 30%;
-    // flex-direction: column;
+// .test-grid {
+//     margin-top: 20%;
+//     background-image: url('../../assets/headshot.JPG');
+//     background-size: cover;
+//     background-color: $light-color;
+//     // border-color: $dark-color;
+//     border: 10px $dark-color;
+//     border-radius: 30%;
+//     // flex-direction: column;
 
-    // margin-top: 12.5vh;
-    margin-right: 10%;
-    margin-left: 10%;
-    // margin
-    min-height: 40vh;
-    // max-width: 50%;
-    min-width: 70%;
+//     // margin-top: 12.5vh;
+//     margin-right: 10%;
+//     margin-left: 10%;
+//     // margin
+//     min-height: 40vh;
+//     // max-width: 50%;
+//     min-width: 70%;
 
-    bottom: 12.5;
-    border: 1px solid white;
-    display: grid;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    @media (max-width: 768px) {
-        margin-top: 5%;
-        // right: auto;
-        top: 0;
-        min-height: 30vh;
-        min-width: 60vw;
-        background-size: cover;
-        // min-width: 100%;
-        // min-height: 30%;
-        // max-height: 40%;
-      }
+//     bottom: 12.5;
+//     border: 1px solid white;
+//     display: grid;
+//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+//     @media (max-width: 768px) {
+//         margin-top: 5%;
+//         // right: auto;
+//         top: 0;
+//         min-height: 30vh;
+//         min-width: 60vw;
+//         background-size: cover;
+//         // min-width: 100%;
+//         // min-height: 30%;
+//         // max-height: 40%;
+//       }
 
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-template-rows: repeat(3, 10px);
-    // gap: 10px;
-}
+//     // grid-template-columns: repeat(3, 1fr);
+//     // grid-template-rows: repeat(3, 10px);
+//     // gap: 10px;
+// }
 
 // .contact-button {
 //     background-color: $light-color;
@@ -113,210 +113,6 @@
 
 /* Group 1 */
 
-.contact-button {
-
-    min-width: 50%;
-    // line-height: -20;
-    // height: 6vh;
-    min-height: 6vh;
-    // left: 126px;
-    // top: 551px;
-    background: #FBEBDF;
-    border-radius: 32px;
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1%;
-    // line-height: 35px;
-    color: #0F172A;
-    // vertical-align: middle;
-    // text-align: center;
-
-
-    
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.contact-button:hover{
-    min-height: 6.4vh;
-    min-width: 63%;
-    
-    // z-index: 1;
-    transition: 0.2s;
-    filter: drop-shadow(0px 8px 15px rgba(243, 243, 243, 0.25));
-}
-
-/* Contact Me */
-
-.text-holder{
-    position: absolute;
-    width: 161px;
-    height: 35px;
-    // left: 160.83px;
-    // top: 567.5px;
-
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29.3333px;
-    line-height: 35px;
-
-    color: #0F172A;
-}
-
-// @import '../variables';x§
-
-
-// .banner {
-//   position: absolute;
-//   display: flex;
-//   flex: 0 0 $banner-ratio;
-//   flex-direction: column;
-
-//   background-color: $primary-color;
-  
-//   min-width: $banner-ratio;
-//   top: 0;
-//   right: 0vw;
-//   min-height: 100%;
-//   @media (max-width: 768px) {
-//     position: static;
-//     order: -1;
-//     top: 0;
-//     min-width: 100%;
-//     min-height: auto;
-//     // max-height: 40%;
-//   }
-// }
-
-// .banner-new {
-//     position: absolute;
-//     display: flex;
-//     flex: 0 0 30vw; // different
-//     flex-direction: column;
-//     align-items: center;
-    
-//     gap: 15%;
-//     min-width: 30vw;
-//     right: 0vw;
-    
-//     background-color: orange;
-//     color: var(--secondary-text);
-    
-//     @media (max-width: 768px) {
-//       position: static;
-      
-//       order: -1;
-      
-//       top: 0;
-//       min-width: 100%;
-//       min-height: 40vh;
-//     }
-//   }
-
-// // .banner-new {
-// //     display: flex;
-// //     flex-direction: column;
-// //     flex: 0 0 30vw;
-// //     align-items: center;
-
-// //     background-color: $primary-color;
-
-// //     gap: 15%;
-// //     right: 0vw;
-// //     min-width: 30vw;
-    
-// //     color: var(--secondary-text);
-// //     @media (max-width: 768px) {
-// //       position: static;
-// //       order: -1;
-// //       top: 0;
-// //       min-width: 100%;
-// //       min-height: 40vh;
-// //     }
-// //   }
-
-// .photo {
-//     margin-top: 20%;
-//     margin-right: 10%;
-//     margin-left: 10%;
-    
-//     background-image: url('../../assets/headshot.JPG');
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     object-fit: cover;
-
-//     border: 10px solid $dark-color;
-//     border-radius: 30%;
-    
-//     min-height: 40%;
-//     min-width: 70%;
-  
-//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-//     @media (max-width: 768px) {
-//       height: 30vh; 
-//       margin: 0 auto; 
-//       margin-top: 5%;
-//       min-width: 40%;
-//       max-width: 40%;
-//     }
-//   }
-
-// //   .test-grid {
-// //     margin-top: 20%;
-// //     margin-right: 10%;
-// //     margin-left: 10%;
-// //     bottom: 12.5;
-
-// //     background-image: url('../../assets/headshot.JPG');
-// //     background-size: contain;
-// //     background-repeat: no-repeat;
-// //     background-position: center;
-// //     object-fit: cover;
-    
-// //     border: 10px $dark-color;
-// //     border-radius: 30%;
-
-// //     min-height: 40vh;
-// //     min-width: 70%;
-
-// //     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-// //     @media (max-width: 768px) {
-// //         height: auto; // Let the height adjust automatically
-// //         object-fit: contain; // Ensure the photo scales nicely
-// //         margin: 0 auto; 
-// //         margin-top: 5%;
-// //         min-width: 40%;
-// //       }
-// // }
-
-// .banner-container{
-//     width: 100%;
-
-//     margin-top: 10%;
-//     display: flex;
-//     flex-direction: column;
-//     gap: 10vh;
-//     align-items: center;
-//     justify-content: center;
-//     @media (max-width: 768px) {
-//         margin-top: 10%;
-//         min-height: 50%;
-//         margin-bottom: 5%;
-//         // right: auto;
-//         // top: 0;
-//         // min-width: 100%;
-//         // min-height: 20%;
-//         // max-height: 40%;
-//       }
-// }
-
-
-
-
-
 // .contact-button {
 
 //     min-width: 50%;
@@ -330,8 +126,7 @@
 //     font-family: 'Radio Canada';
 //     font-style: normal;
 //     font-weight: 700;
-//     // font-size: 30px;
-//     font-size: 3.0vh;
+//     font-size: 30px;
 //     line-height: 1%;
 //     // line-height: 35px;
 //     color: #0F172A;
@@ -341,10 +136,6 @@
 
     
 //     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-//     @media (max-width: 768px) {
-//         min-width: 40%;
-//       }
 // }
 
 // .contact-button:hover{
@@ -356,67 +147,21 @@
 //     filter: drop-shadow(0px 8px 15px rgba(243, 243, 243, 0.25));
 // }
 
+/* Contact Me */
 
-// .photo-new {
-//     margin-top: 20%;
-//     background-color: black;
-//     border: 10px black;
-//     border-radius: 30%;
-  
-//     margin-right: 10%;
-//     margin-left: 10%;
-//     // margin-bottom: 10%;
-//     min-height: 40%;
-//     min-width: 70%;
-  
-//     border: 5px solid white;
-//     @media (max-width: 768px) {
-//       height: 30vh; 
-//       margin: 0 auto; 
-//       margin-top: 5%;
-//       min-width: 40%;
-//       max-width: 40%;
-//     }
-//   }
-  
-//   .content-new {
-//     padding: var(--padding);
-//     height: 100vh;
-//     min-width: 70vw;
-//     border-radius: var(--border-rad);
-//     box-shadow: var(--shadow);
-//     position: relative;
-//     background-color: var(--primary-box-color);
-//     color: var(--primary-box-text);
-//   }
-  
-//   .banner-new {
-//     display: flex;
-//     flex: 0 0 30vw;
-//     flex-direction: column;
-//     align-items: center;
-    
-//     gap: 15%;
-//     min-width: 30vw;
-//     right: 0vw;
-    
-//     background-color: orange;
-//     color: var(--secondary-text);
-    
-//     @media (max-width: 768px) {
-//       position: static;
-      
-//       order: -1;
-      
-//       top: 0;
-//       min-width: 100%;
-//       min-height: 40vh;
-//     }
-//   }
-  
-  
-//   .button-new {
-//     max-width: 70%;
-//     margin-bottom: 5%;
-//   }
+// .text-holder{
+//     position: absolute;
+//     width: 161px;
+//     height: 35px;
+//     // left: 160.83px;
+//     // top: 567.5px;
+
+//     font-family: 'Radio Canada';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 29.3333px;
+//     line-height: 35px;
+
+//     color: #0F172A;
+// }
 
