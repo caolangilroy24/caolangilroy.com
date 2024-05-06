@@ -9,7 +9,14 @@ import Banner from './components/Banner'
 import HighLevelTest from './components/HighLevelTest'
 
 
+
 function App() {
+  const scrollToBottom = () => {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+    });
+  };
 
   return (
     <>
@@ -25,7 +32,9 @@ function App() {
         <div class="banner">
             <div class="banner-container">
                 <div class="photo"></div>
-                <button class="button">click me</button>
+                <button className='contact-button' onClick={scrollToBottom}>
+              Contact Me
+            </button>
             </div>
         </div>
     </div>

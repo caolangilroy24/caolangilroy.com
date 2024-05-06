@@ -12,10 +12,6 @@ import TechStack from './TechStack'
 
 export default function Home() {
   return (
-    // <div className='content-new'>
-    //   hello
-    // </div>
-
     <div className='home-content'>
           <div className='home-content-container'>
             <h1>Full Stack Software Engineer</h1>

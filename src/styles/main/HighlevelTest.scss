@@ -1,8 +1,8 @@
 @import '../variables';
 
 :root {
-    --primary-box-color: #112055;
-    --primary-box-text: #fff;  
+    // --primary-box-color: #112055;
+    // --primary-box-text: #fff;  
     --secondary-box-color: #4f9d92;
     --secondary-box-text: #000;
   }
@@ -67,8 +67,8 @@
     border-radius: var(--border-rad);
     box-shadow: var(--shadow);
     position: relative;
-    background-color: var(--primary-box-color);
-    color: var(--primary-box-text);
+    background-color: var(--primary-color);
+    // color: var(--primary-box-text);
     // @media (max-width: 768px) {
     //     // height: 30vh; 
     //     // margin: 0 auto; 
@@ -103,7 +103,7 @@
   }
   
   
-  .button {
-    max-width: 70%;
-    margin-bottom: 5%;
-  }
+//   .button {
+//     max-width: 70%;
+//     margin-bottom: 5%;
+//   }
