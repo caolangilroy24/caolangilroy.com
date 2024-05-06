@@ -27,6 +27,7 @@ function App() {
 
         <div class="content">
         <Home/>
+        <Contact/>
 
         </div>
         <div class="banner">

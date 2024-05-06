@@ -17,11 +17,20 @@
     border: 1px solid $light-color;
     border-radius: 15px;
     
+    overflow: scroll;
+    scrollbar-color: $light-color $dark-color;
 }
 
 .icon {
     height: 4.5vh;
+    @media (max-width: 768px) {
+        height: 4.5vh;
+
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
 }
+
 .icon:hover {
     height: 5.5vh;
     transition: 0.2s;
