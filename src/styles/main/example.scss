@@ -1,16 +1,17 @@
 @import '../variables';
 
 body {
-    font-family: $font-family-base;
-    font-size: $font-size-base;
-    color: $light-color;
-    background-color: $dark-color;
-    display: flex;
-    flex-direction: row;
-    overflow: auto;
-    // height: 200vh;
+  display: flex;
+  flex-direction: row;
+
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+
+  color: $light-color;
+  background-color: $dark-color;
+
+  overflow: auto;
     @media (max-width: 768px) {
-      // right: auto;
       flex-direction: column;
     }
   }
@@ -18,8 +19,10 @@ body {
   .body-container {
     display: flex;
     flex-direction: column;
+
     align-items: center;
     justify-content: center;
+
     height: 100vh;
     @media (max-width: 768px) {
       // right: auto;
@@ -30,21 +33,18 @@ body {
   .button {
     background-color: $primary-color;
     color: $light-color;
+
     padding: $spacing-unit;
     border-radius: $border-radius;
   }
 
     .logo {
-        z-index: 1;
         position: fixed;
+        z-index: 1;
+
         top: 0;
         left: 0;
         padding: 10px;
     }
 
-    
-    
-      // .banner {
-      //   order: -1; // Move banner container to the top
-      // }
     

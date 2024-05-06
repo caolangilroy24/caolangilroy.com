@@ -1,55 +1,44 @@
 @import '../variables';
 
 .home-content  {
-    // position: relative;
     top: 0;
     left: 0vw;
-    // min-width: 30vw;
     max-width: 70vw;
-    // min-width: 30vw;
-    // min-height: 100%;
-    flex: 1 1 auto;
+
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     align-items: center;
+
     font-family: 'Inria Sans';
     font-style: normal;
+
     font-weight: 400;
     font-size: 24px;
+
     color: #FBEBDF;
-    // color: yellow;
 
     @media (max-width: 768px) {
-      // right: auto;
       top: 30vh;
       min-width: 100vw;
-      // min-height: 30vh;
     }
   }
   .home-content h1 {
-    // font-size: 70px;
-    font-size: 5.9vw;
-    // font-size: 3em;
-    // color: $primary-color;
+    font-size: 4.9vw;
   }
   .home-content h3 {
-    // font-size: 70px;
-    font-size: 2.7vw;
-    // font-size: 3em;
-    // color: $primary-color;
+    font-size: 1.95vw;
   }
   .highlight-text {
-    // font-size: 35px;
     font-size: 3.0vh;
-
     color: $primary-color;
   }
 
   .home-content-container {
-    margin-top: 12.5%;
     display: flex;
     flex-direction: column;
-    // background-color: blue;
+
+    margin-top: 5%;
     max-width: 80%;
     min-width: 80%;
     min-height: 80%;
@@ -58,20 +47,18 @@
   .location-linkedin-bar {
     display: flex;
     flex-direction: row;
-    min-height: 10vh;
-    font-size: 20px;
-    font-family: 'Inria Sans';
-    font-style: normal;
-    font-weight: 700;
-    max-width: 60vw;
     min-width: 40vw;
+    max-width: 60vw;
+    min-height: 10vh;
 
-    // line-height: 113%;
-    /* or 23px */
-    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
     letter-spacing: 0.1em;
 
-    // max-height: 20vh;
+    font-family: 'Inria Sans';
+    font-style: normal;
+
+    text-align: center;
   }
 
   .location-text {
@@ -83,38 +70,19 @@
 
   .small-icon {
     cursor: pointer;
+    background-size: cover;
+
     margin-right: 10px;
     height: 30%;
-    background-size: cover;
-    // min-height: 100%;
   }
+  
   .small-icon:hover {
     height: 33%;
+
     transition: 0.2s;
     filter: drop-shadow(0px 8px 15px rgba(206, 206, 206, 0.25));
   }
   .location-icon {
     margin-right: 10px;
     min-height: 110%;
-    // min-width: none;
-    // min-height: 20
-    // 0%;
   }
-  /* Hi, I'm Caolan Gilroy, a software developer based in Berlin. Passionate about web development, I specialize in MEAN and MERN stack technologies and thrive on delivering innovative solutions. Let's create something amazing together! */
-
-// position: absolute;
-// width: 614px;
-// height: 202px;
-// left: 84px;
-// top: 263px;
-
-// font-family: 'Inria Sans';
-// font-style: normal;
-// font-weight: 400;
-// font-size: 24px;
-// line-height: 113%;
-// /* or 27px */
-// letter-spacing: 0.01em;
-
-// color: rgba(255, 147, 48, 0.95);
-
