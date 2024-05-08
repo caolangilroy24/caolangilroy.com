@@ -15,6 +15,14 @@ body {
       flex-direction: column;
     }
   }
+  //should be able to cut down on these
+  .website-container {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
 
   .body-container {
     display: flex;
@@ -25,7 +33,6 @@ body {
 
     height: 100vh;
     @media (max-width: 768px) {
-      // right: auto;
       flex-direction: column;
     }
   }
@@ -47,4 +54,36 @@ body {
         padding: 10px;
     }
 
+    .content {
+    position: relative;
+
+    height: 100vh;
+    min-width: 70vw;
+
+    border-radius: var(--border-rad);
+    box-shadow: var(--shadow);
+
+    background-color: var(--primary-color);
+    @media (min-width: 768px) {
+        margin-top: 10vh;
+      }
+  }
     
+
+  .highlight-text {
+    font-size: 3.0vh;
+    color: $primary-color;
+  }
+
+  @media (max-width: 768px) {
+ 
+    .highlight-text {
+      font-size: 3.7vh;
+      stroke: $primary-color;
+    }
+  }
+  @media (min-width: 1200px) {
+    .highlight-text {
+      font-size: 2vh;
+    }
+    }

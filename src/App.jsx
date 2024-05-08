@@ -1,28 +1,20 @@
 import { useState } from 'react'
 import logo from '../public/logo.svg'
-import './styles/main/example.scss'
+import './styles/main/common.scss'
 import './styles/main/homeBanner.scss'
-import './styles/main/contentContainer.scss'
+import './styles/main/home.scss'
+import './styles/main/HighlevelTest.scss'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import Banner from './components/Banner'
-import HighLevelTest from './components/HighLevelTest'
 
 
 
 function App() {
-  const scrollToBottom = () => {
-    window.scrollTo({
-        top: document.body.scrollHeight,
-        behavior: 'smooth'
-    });
-  };
 
   return (
     <>
-    {/* <HighLevelTest>< img src={logo} className="logo" alt="logo"></img></HighLevelTest>
-     */}  
-    <div class="box__wrapper">
+    <div class="website-container">
       < img src={logo} className="logo" alt="logo" />
 
         <div class="content">
@@ -30,22 +22,8 @@ function App() {
         <Contact/>
 
         </div>
-        <div class="banner">
-            <div class="banner-container">
-                <div class="photo"></div>
-                <button className='contact-button' onClick={scrollToBottom}>
-              Contact Me
-            </button>
-            </div>
-        </div>
-    </div>
-      {/* <div className='body-container'>
-        < img src={logo} className="logo" alt="logo" />
         <Banner/>
-        {/* <Contact/> */}
-        {/* <Banner/> */}
-
-      {/* </div> */} 
+    </div>
     </>
   )
 }

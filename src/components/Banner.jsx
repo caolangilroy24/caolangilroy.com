@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/main/homeBanner.scss'
+// import '../styles/main/HighlevelTest.scss'
+import '../styles/main/common.scss'
 
 
 export default function Banner() {
@@ -10,14 +12,13 @@ export default function Banner() {
         });
     };
   return (
-    <div className='banner-new-new'>
-        <div className='banner-container-new'>
-            <div className='photo-new' >
-            </div>
-            <button className='contact-button' onClick={scrollToBottom}>
+    <div class="banner">
+            <div class="banner-container">
+                <div class="photo"></div>
+                <button className='contact-button hide-on-mobile' onClick={scrollToBottom}>
               Contact Me
             </button>
+            </div>
         </div>
-    </div>
   )
 }
