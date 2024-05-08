@@ -59,6 +59,9 @@
       min-width: 40%;
       max-width: 40%;
     }
+    @media (min-width: 768px) {
+        margin-top: 5vh;
+      }
   }
   
   .content {
@@ -71,13 +74,18 @@
     box-shadow: var(--shadow);
 
     background-color: var(--primary-color);
+    @media (min-width: 768px) {
+        margin-top: 10vh;
+      }
   }
   
   .banner {
+    position: fixed;
     display: flex;
     flex: 0 0 30vw;
     flex-direction: column;
     align-items: center;
+    
     
     min-width: 30vw;
     right: 0vw;
@@ -86,12 +94,20 @@
     color: var(--secondary-text);
     
     @media (max-width: 768px) {
-      position: static;
+      position: sticky;
       
       order: -1;
+      z-index: 1;
       
       top: 0;
       min-width: 100%;
-      min-height: 42vh;
+      min-height: 35vh;
     }
+
+    
+    @media (max-width: 768px) {
+            .hide-on-mobile {
+              display: none;
+            }
+          }
   }

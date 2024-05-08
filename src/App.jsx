@@ -6,7 +6,6 @@ import './styles/main/contentContainer.scss'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import Banner from './components/Banner'
-import HighLevelTest from './components/HighLevelTest'
 
 
 
@@ -20,8 +19,6 @@ function App() {
 
   return (
     <>
-    {/* <HighLevelTest>< img src={logo} className="logo" alt="logo"></img></HighLevelTest>
-     */}  
     <div class="box__wrapper">
       < img src={logo} className="logo" alt="logo" />
 
@@ -30,22 +27,8 @@ function App() {
         <Contact/>
 
         </div>
-        <div class="banner">
-            <div class="banner-container">
-                <div class="photo"></div>
-                <button className='contact-button' onClick={scrollToBottom}>
-              Contact Me
-            </button>
-            </div>
-        </div>
-    </div>
-      {/* <div className='body-container'>
-        < img src={logo} className="logo" alt="logo" />
         <Banner/>
-        {/* <Contact/> */}
-        {/* <Banner/> */}
-
-      {/* </div> */} 
+    </div>
     </>
   )
 }
