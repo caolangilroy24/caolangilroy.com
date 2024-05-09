@@ -13,21 +13,12 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
     <div class="website-container">
       < img src={logo} className="logo" alt="logo" />
 
         <div class="content">
         <Home/>
         <Contact/>
-=======
-      <div className='body-container'>
-        < img src={logo} className="logo" alt="logo" />
-        
-        <Home/>
-        <Contact/>
-        <Banner/>
->>>>>>> main
 
         </div>
         <Banner/>
