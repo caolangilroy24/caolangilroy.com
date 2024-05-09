@@ -5,7 +5,6 @@ import githubSmall from '../assets/github-small.svg'
 import linkedinSmall from '../assets/linkedin-small.svg'
 import '../styles/main/common.scss'
 import '../styles/main/homeBanner.scss'
-import '../styles/main/home.scss'
 import TechStack from './TechStack'
 
 
