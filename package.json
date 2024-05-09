@@ -2,7 +2,7 @@
   "name": "caolangilroy.com",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://caolangilroy24.github.io/caolangilroy.com",
+  "homepage": "http://caolangilroy.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
