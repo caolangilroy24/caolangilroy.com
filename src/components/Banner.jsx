@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/main/homeBanner.scss'
-// import '../styles/main/HighlevelTest.scss'
 import '../styles/main/common.scss'
 
 

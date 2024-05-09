@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/main/contact.scss'
 import github from '../assets/github-primary.svg'
 import linkedin from '../assets/linkedin-primary.svg'
-import '../styles/main/utils.scss'
 
 export default function Contact() {
   return (
